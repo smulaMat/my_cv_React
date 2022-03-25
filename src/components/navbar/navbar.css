@@ -1,0 +1,27 @@
+.navbar {
+  width: 92%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  border: 3px solid black;
+  border-radius: 10px;
+  background: #61dbfb;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar > li {
+  list-style: none;
+}
+
+.navbar > li > a {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.navbar > li > a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

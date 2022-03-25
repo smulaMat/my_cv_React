@@ -1,0 +1,42 @@
+.container {
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  p {
+    margin: auto;
+    padding: 10px;
+    text-shadow: 1cm;
+    color: aliceblue;
+    text-align: justify;
+  }
+  
+  img {
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+  }
+  
+  li {
+    margin-left: 10px;
+    text-shadow: 1cm;
+    color: aliceblue;    
+  }
+
+  ul {
+    margin: auto;
+    padding: 2px;
+    text-align: justify;
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+  }
