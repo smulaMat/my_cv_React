@@ -1,0 +1,25 @@
+.backToTop {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(17, 54, 2, 0.9);
+  
+    opacity: 1;
+    -webkit-transition: visibility 0.2s, opacity 0.2s;
+    transition: visibility 0.2s, opacity 0.2s;
+  
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  
+    cursor: pointer;
+  
+    font: 14px/1 "Spartan", sans-serif;
+    color: #ffffff;
+  }
+  
+  .backToTop.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  

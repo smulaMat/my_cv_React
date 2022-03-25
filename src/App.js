@@ -5,6 +5,7 @@ import "./App.css";
 import Jobs from "./components/jobs/Jobs";
 import Hobbies from "./components/hobbies/Hobbies"
 import Header from "./components/header/Header";
+// import Button_BackTop from './components/Button_backTop';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Jobs />
       <Education />
       <Hobbies />
-      {/* <ContactMe /> */}
+      {/* <Button_BackTop /> */}
     </div>
   );
 }

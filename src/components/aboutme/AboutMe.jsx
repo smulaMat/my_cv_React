@@ -13,11 +13,11 @@ const AboutMe = () => {
   dlatego w nowej pracy nie boję się wyzwań . W wolnych chwilach czytam
   książki, popijając do tego hektolitry czarnej kawy, po czym wybiegam na
   naście kilometrów rozporządzić zmagazynowaną energią.`;
-  const TitleAboutMe = "About Me"
+  
 
   return (
     <div>
-      <h1>{TitleAboutMe}</h1>
+      <h1> About Me </h1>
       <div className="container">
         <img
         src={IMG_SOURCE}
